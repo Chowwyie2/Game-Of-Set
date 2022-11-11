@@ -50,7 +50,7 @@ When actions cannot be conducted, auditory cues are used to let the player know.
 
 ## Features
 
-This project is a redesign of The Game Of Set. It contains a full graphical user interface and a fully playable game in both single player and multiplayer mode. In single player mode, the player races against the timer to get as many sets before time runs out. In multiplayer mode, two players compete against each other to get the most sets.
+This project contains a full graphical user interface and a fully playable game in both single player and multiplayer mode. In single player mode, the player races against the timer to get as many sets before time runs out. In multiplayer mode, two players compete against each other to get the most sets.
 
 The game used mix of visual and audial cues to enhance player experience. For both modes, the game contains a hints system with two different types of hints and a statistics system to display player statistics. Along with this, there are customizable player names and timer. Pop-ups are used to guide the players throughout the game experience.
 
