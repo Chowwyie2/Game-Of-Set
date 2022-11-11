@@ -2,11 +2,7 @@
 
 # Abstract
 
-This program is a redesign of the project 2 Game of Set: https://en.wikipedia.org/wiki/Set_(card_game). Instead of being coded in Ruby, the game was coded using JavaScript, CSS, and HTML. This is intended to be a both a one player game to race against a timer and a two player game that can be played on the same keyboard, but with additional features to enhance the user experience.
-
-Some challenges we faced while working on the project was the testing framework jest and the Node.js environment, which was used to unit test player and card functionalities.
-
-This was a fun project, we hope you enjoy.
+This program is an implementation of the Game of Set: https://en.wikipedia.org/wiki/Set_(card_game). This game was coded using JavaScript, CSS, and HTML. This is intended to be a both a one player game to race against a timer and a two player game that can be played on the same keyboard, but with additional features to enhance the user experience.
 
 # Table of Contents
 
@@ -75,7 +71,7 @@ Multiplayer mode:
                                                              
 ## Possible Improvements
 
-The hint system has some room for improvement. It is currently set so the player can use as many hints as they want, leading them to possibly cheating. If a limit of 3 selection hints were used, the game would be more balanced. Also, the selection hints used in multiplayer mode can be unfair because a player can take advantage of the selection hints. Other improvements include smoother card draw and select animations. 
+The selection hints used in multiplayer mode can be unfair because a player can take advantage of the selection hints. Other improvements include smoother card draw and select animations. 
 
 ## Technologies Used
 
