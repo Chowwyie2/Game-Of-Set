@@ -1,0 +1,16 @@
+/* Inherited styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+    background-color: #ffdfd3f8;
+    /* Kenya Aguirre, vecteezy */
+    background-image: url(../images/background.jpg);
+}
+
+img {
+    height: 100%;
+    width: 100%; 
+    border-radius: 15px;
+}

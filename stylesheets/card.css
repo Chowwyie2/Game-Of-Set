@@ -1,0 +1,49 @@
+.card {
+    display: block;
+    cursor: pointer;
+    height: 100px;
+    width: 150px;
+    transition: all 0.2s;
+    margin: 15px;
+    animation-name: pop;
+    animation-duration: 1s;
+}
+
+/* To fill in card space*/
+.card-img {
+    background-color: white;
+}
+
+/* Selected card styling */
+.card.selected {
+    height: 110px;
+    width: 165px;
+    margin: 3px;
+    border: 3px solid white;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+/* Hover over card styling */
+.card:hover{
+    height: 110px;
+    width: 165px;
+    margin: 5px;
+}
+
+/* Adjusted so margins don't changes */
+.card.selected:hover {
+    margin: 3px;
+}
+
+/* Grid display */
+#card-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 12%;
+    align-items: center;
+    justify-items: center;
+    transition: all 0.2s;
+}

@@ -1,0 +1,70 @@
+<!-- Boilerplate html head, metadata, and links to stylesheets -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Set Game</title>
+    <link rel="icon" type="image/x-icon" href= "images/card-icon.png">
+    <link href="stylesheets/card.css" rel="stylesheet">
+    <link href="stylesheets/game.css" rel="stylesheet">
+    <link href="stylesheets/scoreboard.css" rel="stylesheet">
+    <link href="stylesheets/popup.css" rel="stylesheet">
+    <link href="stylesheets/animation.css" rel="stylesheet">
+    <script src="javascripts/player.js" defer></script>
+    <script src="javascripts/popup.js" defer></script>
+    <script src="javascripts/scoreboard.js" defer></script>
+    <script src="javascripts/card.js" defer></script>
+    <script src="javascripts/game.js" defer></script>
+  </head>
+  <!-- body information for all html pages -->
+  <body>
+    <div id="game-select-popup" class="menu" >
+      <img class="set-logo" src="images/SET_FamilyGames_digital.png" alt="set-logo">
+      <div>A game where cards have symbols with different colors, shapes, numbers, and fillings. A set is three cards where every feature is either all the same, or all different. Grab as many sets as you can. <br><br>Hot keys: 'h' - Card Selection Hint: Automatically selects 2 of a set on the board if there is one available. If none, negative sound plays.<br>'n' - Number Hint: States how many sets are on the board.<br>'s' - Statistics: Displays a board of a player's game statistics.<br>'d' - Draw Cards: Draws 3 new cards if there are no sets on the board. Negative sound plays if there is still a set.</div>
+      <div class="button-container">
+        <button id="single-mode-button" class="game-button">
+          <img class="set-logo" src="images/singleplayer-icon.png" alt="single-player-icon">
+          Play Single Player Mode
+        </button>
+        <button id="two-mode-button" class="game-button">
+          <img class="set-logo" src="images/multiplayer-icon.png" alt="multi-player-icon">
+          Play Multi Player Mode
+        </button>
+      </div>
+    </div>
+    <div id="two-player-scoreboard" class="scoreboard">
+      <span id="p1score-display" class="score"> 
+        <span id="p1scorename"> Player 1 </span>
+        score:
+        <img src="images/card-icon.png" class="card-icon" alt="cards-icon">
+        <span id="p1score"> 0 </span>
+      </span>
+      <span class="score p2score-display"> 
+        <span id="p2scorename"> Player 2 </span>
+        score:
+        <img src="images/card-icon.png" class="card-icon" alt="cards-icon">
+        <span id="p2score"> 0 </span>
+      </span>
+    </div>
+    <div id="one-player-scoreboard" class="scoreboard">
+      <span id="soloscore-display" class="score"> 
+        <span id="soloscorename"> Solo Player </span>
+        score:
+        <img src="images/card-icon.png" class="card-icon" alt="cards-icon">
+        <span id="soloscore"> 0 </span>
+      </span>
+      <span class="score p2score-display"> 
+        <img src="images/clock.png" class="card-icon" alt="clock-icon">
+        Time remaining:
+        <span id="time-remaining">50</span> seconds
+      </span>
+    </div>
+    <div id="disable-backdrop"></div> 
+    <div id="card-display">
+    </div>
+  </body>
+</html>

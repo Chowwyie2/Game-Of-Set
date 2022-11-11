@@ -1,0 +1,108 @@
+/* Disabled transparent background */
+#disable-backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    opacity: 0.3;
+    background-color: black;
+}
+
+/* popup styling */
+.popup {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    border-radius: 30px;
+    height: auto;
+    width: 500px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+}
+
+/* popup button styling */
+.popup-button {
+    position: absolute;
+    bottom: 40px;
+    background-color: #ff8974;
+    border-radius: 15px;
+    height: 50px;
+    width: 70%;
+    margin-left: 15%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* popup button hovering */
+.popup-button:hover {
+    background-color: rgb(230, 124, 100);
+}
+
+/* player2 statistics right text */
+#p2 {
+    float: right;
+}
+
+/************************************ menu styling ************************************/
+
+.menu {
+    padding: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: 200ms ease-in-out;
+    border-radius: 40px;
+    z-index: 10;
+    background-color: white;
+    width: 550px;
+    max-width: 80%;
+    height: 400px;
+    text-align: center;
+}
+
+.set-logo {
+    height: 25%;
+    width: 25%;
+    margin: auto;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    
+}
+
+.game-button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    background-color: rgb(255, 156, 133);
+    border-radius: 20px;
+    height: 200px;
+    width: 220px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.game-button:hover {
+    background-color: rgb(230, 124, 100);
+}
